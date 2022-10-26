@@ -45,7 +45,7 @@ function modulusNum(n)
 
 end
 
--- Create matix table
+-- Create matrix table
 function createMatrix(rows, cols)
   local m = {}
     for i=1, rows do
@@ -62,7 +62,7 @@ function createMatrix(rows, cols)
   return m
 end
 
--- Print matix table
+-- Print matrix table
 function printMatrix(m)
   local rows = #m
   local cols = #m[1]
