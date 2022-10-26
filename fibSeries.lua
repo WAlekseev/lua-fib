@@ -71,7 +71,7 @@ function printMatrix(m)
   for i=1, rows do
     io.write("[")
     for j=1, cols do
-      io.write(" " .. math.floor((m[i][j])) .. " ") -- use math.floor to get largest, cause lua is lang with a dynamic vars types
+      io.write(" " .. math.floor((m[i][j])) .. " ") -- use math.floor to get largest int value, lua have dynamic variable type model
     end
     io.write("]\n")
   end
