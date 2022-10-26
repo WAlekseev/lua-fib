@@ -18,9 +18,7 @@ end
 
 -- Get input and check for integer number
 function getInput(prompt)
-
   local numba = 0
-
   repeat
     print(prompt)
     numba = tonumber(io.read())
@@ -30,19 +28,15 @@ function getInput(prompt)
       print("Error, value must be integer")
     end
   until (tonumber(io.read()) ~= nil)
- 
-
 end
 
 -- Check A2 cell value for even/odd sign
 function modulusNum(n)
-
   if (n % 2 == 0) then
     return "even"
   else
     return "odd"
   end
-
 end
 
 -- Create matrix table
