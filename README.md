@@ -14,6 +14,9 @@
 lua fibSeries.lua
 ```
 
+## Код на https://www.tutorialspoint.com/
+[http://tpcg.io/_VOASMV](http://tpcg.io/_VOASMV)
+
 ## Примеры вывода
 
 По строкам
